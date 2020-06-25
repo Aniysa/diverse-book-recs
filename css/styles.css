@@ -1,0 +1,60 @@
+body {
+    display: flex;  
+    flex-direction: column;
+    padding-top: 56px;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;  
+  }
+
+
+.heading {padding-top: 60px;
+    padding-bottom: 30px;
+text-align: center;
+} 
+
+.image1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 44%;
+}
+  
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  hr {
+    width: 75%;
+    border: 1.5px solid #ddd;
+    border-radius: 50%;
+  }
+  
+  footer {
+    display: flex; 
+    justify-content: center; 
+    background-color: #666;
+    height: 100px;
+    padding: 20px;
+  }
+  
+  footer a {
+    margin: 20px;
+    text-decoration: none!important;
+  }
+  
+  .social-icon {
+    display: inline-flex;  
+    width: 50px;
+    height: 50px;
+    color: #666;
+    background-color: white;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 50%;
+  }
+  
+  .social-icon:hover {
+    color: #222; 
